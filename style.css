@@ -63,6 +63,30 @@
     }
   }
 
+/*box*/
+.container{
+  top: 0%;
+  float: left;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  left: initial;
+}
+.box{
+  width: 350px;
+  height: 200px;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+}
+.box:hover{
+  transform: scale(1.1);
+}
 
-
-
+.heading{
+  color: black; 
+  margin: 20px; 
+  font-size: large; 
+  font-family: Georgia, 'Times New Roman', Times, serif;" 
+}
