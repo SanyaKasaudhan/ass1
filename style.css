@@ -12,19 +12,22 @@
 }
   .topnav {
     overflow: hidden;
-    background-color: lightgray;
+    background-color: #E0E0E0;
     position: fixed;
     top: 0;
     width: 100%;
     position: relative;
     z-index: 1;
+    height: 85px;
     
   }
   .topnav a {
     float: left;
-    color: blue;
+    top: 65%;
+    color: #428BCA;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 36px;
+    margin-top: 36px;
     text-decoration: none;
     font-size: 25px;
   }
@@ -35,21 +38,19 @@
   .topnav-left {
     float: left;
     font-size: 20px;
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     position: absolute;
-    top: 50%;
-    left: 7%;
+    top:65%;
+    left: 8%;
     transform: translate(-50%, -50%);
   }
   .topnav-centered {
     float: none;
     font-size: 20px;
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 65%;
+    left: 45%;
     transform: translate(-50%, -50%);
   }
   
@@ -89,6 +90,8 @@
   border-radius: 5px;
   position: relative;
   margin: 0 auto;
+  
+  transition: all 0.2s ease-in-out;
 }
 .box:hover{
   transform: scale(1.1,1.1);
@@ -113,9 +116,10 @@
 /*footer */
  .fixed-footer{
   width: 100%;
-  height: 10%;
-  position: fixed;        
-  background: lightgray;
+  height: 50px;
+  position: fixed;      
+  font-family: monospace;  
+  background: #E0E0E0;
   color:black;
   z-index: 1;
 }
@@ -128,6 +132,8 @@
 
 .container1{
   text-align: center;
-  padding-top: 25px;
-  font-size: 20px;
+  justify-content: center;
+  padding-top: 15px;
+  font-size: 15px;
+  display: flex;
 }
