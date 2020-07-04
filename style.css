@@ -103,16 +103,20 @@
 .heading{
   color: black; 
   margin: 20px; 
-  font-size: large; 
-  font-family: monospace" 
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  font-family: monospace;
 }
 
 .heading1{
   color: black; 
   margin-top: 105px;
+  justify-content: flex-start;
   margin-left: 20px;
-  font-size: large; 
+  font-size: 20px;
   font-family: monospace;
+ 
 }
 
 /*footer */
