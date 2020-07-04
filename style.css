@@ -18,7 +18,8 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    
+    padding-right: 15px;
+    padding-left: 15px;
     max-height: 340px;
     
   }
